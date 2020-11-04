@@ -155,21 +155,16 @@ function mathOperation(arg1, arg2, operation) {
     let result;
     switch (operation.toLowerCase()) {
         case 'sum':
-            result = sum(arg1, arg2);
-            break;
+            return = sum(arg1, arg2);            
         case 'sub':
-            result = sub(arg1, arg2);
-            break;
+            return = sub(arg1, arg2);            
         case 'multiplication':
-            result = multiplication(arg1, arg2);
-            break;
+            return = multiplication(arg1, arg2);            
         case 'division':
-            result = division(arg1, arg2);
-            break;
+            return = division(arg1, arg2);            
         default:
-            break;
+			return null;        
     }
-    return result;
 }
 
 {
